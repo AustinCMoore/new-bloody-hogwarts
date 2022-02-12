@@ -241,12 +241,31 @@
       "/Users/austinmoore/Turing/2nd_mod/Practice_IC/new-bloody-hogwarts/config/routes.rb": {
         "lines": [
           1,
+          1,
           null
         ]
       },
       "/Users/austinmoore/Turing/2nd_mod/Practice_IC/new-bloody-hogwarts/app/helpers/application_helper.rb": {
         "lines": [
           1,
+          null
+        ]
+      },
+      "/Users/austinmoore/Turing/2nd_mod/Practice_IC/new-bloody-hogwarts/spec/models/course_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          1,
+          2,
+          null,
+          null,
+          1,
+          2,
+          2,
+          null,
+          null,
           null
         ]
       },
@@ -318,8 +337,23 @@
           1,
           null
         ]
+      },
+      "/Users/austinmoore/Turing/2nd_mod/Practice_IC/new-bloody-hogwarts/app/controllers/students_controller.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/austinmoore/Turing/2nd_mod/Practice_IC/new-bloody-hogwarts/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
       }
     },
-    "timestamp": 1644626351
+    "timestamp": 1644627370
   }
 }
