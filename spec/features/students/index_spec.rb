@@ -4,7 +4,7 @@ RSpec.describe "students index page", type: :feature do
   before(:each) do
     @casseopia = Student.create!(name: 'Casseopia Black', age: 10, house: 'Slytherin')
     @noel = Student.create!(name: 'Noel Sitnick', age: 15, house: 'Ravenclaw')
-    @austin = Student.create!(name: 'Austin Moore', age: 20, house: 'Gryffindor')
+    @austin = Student.create!(name: 'Austin Moore', age: 22, house: 'Gryffindor')
     @kirsten = Student.create!(name: 'Kirsten Sitnick', age: 25, house: 'Hufflepuff')
   end
 
@@ -17,5 +17,11 @@ RSpec.describe "students index page", type: :feature do
     expect(page).to have_content(@noel.name)
     expect(page).to have_content(@noel.age)
     expect(page).to have_content(@noel.house)
+  end
+
+  scenario "visitor visits index page and sees average age of all students" do
+    visit '/students'
+    expect(current_path).to eq('/students')
+    expect(page).to have_content("Average Student Age: 18")
   end
 end

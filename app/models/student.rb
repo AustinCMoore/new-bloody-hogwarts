@@ -4,4 +4,8 @@ class Student < ApplicationRecord
   validates_presence_of :name
   validates_presence_of :age
   validates_presence_of :house
+
+  def self.average_age
+    Student.average(:age)
+  end
 end
