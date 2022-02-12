@@ -243,6 +243,8 @@
           1,
           1,
           1,
+          null,
+          1,
           null
         ]
       },
@@ -252,15 +254,33 @@
           null
         ]
       },
+      "/Users/austinmoore/Turing/2nd_mod/Practice_IC/new-bloody-hogwarts/spec/features/students/index_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
       "/Users/austinmoore/Turing/2nd_mod/Practice_IC/new-bloody-hogwarts/spec/features/students/show_spec.rb": {
         "lines": [
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
           1,
           null,
           1,
@@ -370,6 +390,21 @@
           null
         ]
       },
+      "/Users/austinmoore/Turing/2nd_mod/Practice_IC/new-bloody-hogwarts/app/controllers/courses_controller.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/austinmoore/Turing/2nd_mod/Practice_IC/new-bloody-hogwarts/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
       "/Users/austinmoore/Turing/2nd_mod/Practice_IC/new-bloody-hogwarts/app/controllers/students_controller.rb": {
         "lines": [
           1,
@@ -382,14 +417,8 @@
           null,
           null
         ]
-      },
-      "/Users/austinmoore/Turing/2nd_mod/Practice_IC/new-bloody-hogwarts/app/controllers/application_controller.rb": {
-        "lines": [
-          1,
-          null
-        ]
       }
     },
-    "timestamp": 1644628245
+    "timestamp": 1644629595
   }
 }

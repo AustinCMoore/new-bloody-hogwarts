@@ -1,10 +1,3 @@
-# as a visitor,
-# When I visit '/students/:id'
-# I see a list of the students' courses.
-#
-# (e.g. "Defense against the Dark Arts"
-#       "Herbology"
-#       "Potions")
 require "rails_helper"
 
 RSpec.describe "students show page", type: :feature do

@@ -1,0 +1,5 @@
+<h1>Courses!</h1>
+<% @courses.each do |course| %>
+  <h2><%= course.name %></h2>
+  <h3>Qty enrolled: <%= course.students.count %></h3>
+<% end %>
